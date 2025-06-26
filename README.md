@@ -3,6 +3,8 @@ ATP Core Talent 2025 Yarışması için Gelişmiş Bilgisayarla Görü Sistem Ç
 
 📋 Genel Bakış
 Bu proje, sahnedeki nesne hareketlerinden kameranın kendine ait önemli hareketlerini (pan, tilt, kayma gibi) ayırt edebilen gelişmiş bir kamera hareketi algılama sistemi sunar. Sistem, birden fazla bilgisayarla görme algoritmasını birlikte kullanarak sağlam ve doğru tespit sağlar.
+![Ekran görüntüsü 2025-06-26 171038](https://github.com/user-attachments/assets/ea700f53-1af9-4d47-a716-c1aa30684f1d)
+
 
 🎯 Öne Çıkan Özellikler
 Çoklu Algoritma Kullanımı: ORB eşleşmesi, optik akış ve kare farkı yöntemleri
