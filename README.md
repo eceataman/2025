@@ -65,14 +65,7 @@ Optik Akış: 1.2x ağırlık (orta öncelik)
 
 Kare Farkı: 1.0x ağırlık (yedek yöntem)
 
-## 🚀 **Getting Started**
-
-### **Prerequisites**
-
-- Python 3.8 or higher
-- pip package manager
-
-### **Başlarken**
+## 🚀 **Başlarken**
 
 1. **Depoyu klonlayın:**
 
@@ -95,4 +88,55 @@ streamlit run app.py
 
 4. **Tarayıcınızı açın:**
    Navigate to `http://localhost:8501`
+   **Kullanım Kılavuzu**
+Girdi Seçenekleri
+📁 Video Dosyaları
+Desteklenen formatlar: MP4, AVI, MOV, MKV, WebM
+
+Otomatik kare çıkarımı (performans için en fazla 100 kare)
+
+Gerçek zamanlı video bilgisi gösterimi
+
+🖼️**Görsel Dizileri**
+Desteklenen formatlar: JPG, JPEG, PNG, BMP, TIFF
+
+Görselleri kronolojik sırayla yükleyin
+
+Otomatik RGBA'dan RGB'ye dönüşüm
+
+**Tespit Yöntemleri**
+Otomatik Mod (Önerilen): En yüksek doğruluk için tüm algoritmaları birleştirir
+
+Özellik Eşleştirme: ORB anahtar noktaları ve homografi kullanır
+
+Optik Akış: Lucas-Kanade akış takibini kullanır
+
+Kare Farkı: Temel piksel tabanlı hareket tespiti
+
+Parametreler
+Eşik Değeri (Threshold): Hassasiyet kontrolü (10-200, varsayılan: 50)
+
+Yöntem Seçimi: Kullanılacak tespit algoritmasını belirleyin
+
+Analiz Detayı: Kare bazlı güven skoru görüntülemesi
+
+🧠**Algoritma Detayları**
+Kamera Hareketi vs Nesne Hareketi
+Sistem, kamera hareketi ile sahnedeki nesne hareketini aşağıdaki şekilde ayırt eder:
+
+Global Hareket Tutarlılığı: Kamera hareketi tüm çerçeveyi homojen şekilde etkiler
+
+Özellik Noktası Dağılımı: Kamera hareketi tüm anahtar noktalar arasında tutarlı dönüşüm gösterir
+
+Homografi Analizi: Geçerli kamera hareketi anlamlı homografi matrisleri üretir
+
+Hareket Vektörü Hizalaması: Kamera hareketi hizalanmış hareket vektörleri oluşturur
+
+📊 **Teknik Özellikler**
+Bağımlılıklar
+streamlit>=1.28.0    # Web arayüzü
+opencv-python>=4.8.0 # Görüntü işleme
+numpy>=1.24.0        # Sayısal hesaplama
+Pillow>=9.5.0        # Görsel işleme
+
 
