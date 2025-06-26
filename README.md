@@ -1,7 +1,6 @@
-Kamera Hareketi Tespit Sistemi
-ATP Core Talent 2025 Yarışması için Gelişmiş Bilgisayarla Görü Sistem Çözümü
+**ATP Core Talent 2025 - Kamera Hareketi Tespit Sistemi**
 
-📋 Genel Bakış
+📋 **Genel Bakış**
 Bu proje, sahnedeki nesne hareketlerinden kameranın kendine ait önemli hareketlerini (pan, tilt, kayma gibi) ayırt edebilen gelişmiş bir kamera hareketi algılama sistemi sunar. Sistem, birden fazla bilgisayarla görme algoritmasını birlikte kullanarak sağlam ve doğru tespit sağlar.
 ![Ekran görüntüsü 2025-06-26 171038](https://github.com/user-attachments/assets/ea700f53-1af9-4d47-a716-c1aa30684f1d)
 Sistem hem video dosyaları hem de görsel dizileri ile çalışabilir:
@@ -16,7 +15,7 @@ Kullanıcı arayüzünde bu medya dosyaları kolayca sürüklenip bırakılarak 
 Yukarıdaki ekran görüntüsü, bu işlevin canlı bir örneğini sunar. Kullanıcı bir video yükledikten sonra:
 Uygulama videoyu karelere böler, her karede kamera hareketi olup olmadığını analiz eder, hareket tespit edilen kareleri işaretler, kullanıcının seçtiği algoritmaya göre analiz detaylarını gösterir.
 
-🎯 Öne Çıkan Özellikler
+🎯 **Öne Çıkan Özellikler**
 Çoklu Algoritma Kullanımı: ORB eşleşmesi, optik akış ve kare farkı yöntemleri
 
 Video ve Görsel Desteği: MP4, AVI, MOV, WebM videolar ve JPG, PNG görsel dizileri
@@ -27,7 +26,7 @@ Kamera vs Nesne Hareketi Ayırımı: Gelişmiş algoritmalar ile ayrım
 
 Güçlü Performans: RANSAC ile aykırı değer temizliği, algoritma birleştirme
 
-🔬 Teknik Yaklaşım
+🔬 **Teknik Yaklaşım**
 
 1. Özellik Eşleme Algoritması (Ana Yöntem)
    ORB Anahtar Nokta Algılama: Her karede 1000’e kadar özellik noktası çıkarır
